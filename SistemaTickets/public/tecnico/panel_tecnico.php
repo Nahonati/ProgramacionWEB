@@ -45,11 +45,12 @@ $tickets = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         <div class="admin-navbar">
             <div class="admin-brand">Portal del Técnico</div>
-            <div class="admin-actions">
-                <span class="admin-nav-greeting">
+            <div class="admin-actions" style="display: flex; gap: 15px; align-items: center;">
+                <span style="color: #64748b; font-size: 0.9rem;">
                     Hola, <strong><?php echo htmlspecialchars($_SESSION['nombre_completo'] ?? 'Técnico'); ?></strong>
                 </span>
-                <a href="../../cerrar_sesion.php" class="admin-btn admin-btn-danger">Cerrar sesión</a>
+                <span class="admin-pill">Rol: Tecnico</span> 
+                <a href="../../logout.php" class="admin-btn admin-btn-danger">Cerrar Sesión</a>
             </div>
         </div>
 
@@ -88,17 +89,17 @@ $tickets = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         <td style="padding: 10px 8px;"><?php echo htmlspecialchars($ticket['titulo']); ?></td>
                                         <td style="padding: 10px 8px;"><?php echo htmlspecialchars($ticket['solicitante']); ?></td>
                                         <td style="padding: 10px 8px;">
-                                            <span class="tech-pill tech-pill--prio">
+                                            <span class="admin-pill" style="background: #fee2e2; color: #991b1b;">
                                                 <?php echo htmlspecialchars($ticket['prioridad']); ?>
                                             </span>
                                         </td>
                                         <td style="padding: 10px 8px;">
-                                            <span class="tech-pill tech-pill--status">
+                                            <span class="admin-pill" style="background: #e0e7ff; color: #3730a3;">
                                                 <?php echo htmlspecialchars($ticket['estatus']); ?>
                                             </span>
                                         </td>
                                         <td style="padding: 10px 8px;">
-                                            <a href="atender_ticket.php?id=<?php echo $ticket['id_ticket']; ?>" class="admin-btn admin-btn-primary admin-btn-table">
+                                            <a href="atender_ticket.php?id=<?php echo $ticket['id_ticket']; ?>" class="admin-btn admin-btn-primary" style="padding: 6px 12px; font-size: 0.8rem; text-decoration: none;">
                                                 Atender
                                             </a>
                                         </td>

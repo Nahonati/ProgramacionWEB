@@ -38,7 +38,7 @@
             exit();
         } elseif ($datos_usuario['rol_id'] == 3) {
             // Técnico de Soporte
-            header("Location: ../public/tecnico/dashboard.php");
+            header("Location: ../public/tecnico/panel_tecnico.php");
             exit();
         } else {
             // Usuario normal (Rol 2)
