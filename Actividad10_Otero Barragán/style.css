@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+    height: 225px;
+}
+
+nav{
+    width: 100%;
+    background-color: #DB5B69;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    width: 62%;
+    margin-top: 10px;
+    float: left;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+}
+
+.txt{
+    margin: 5px;
+    margin-left: 2%;
+}
+
+.naranja2{
+    color: #C4810E;
+    margin: 5px;
+    margin-left: 2%;
+}
+
+
+.colorletra{
+    color: #FBAB22;
+}
+
+
+.noticia{
+    background-color: #F2F2F2;
+    float: left;
+    border: 1px solid rgb(216, 213, 213);
+    padding: 1%;
+    margin-right: 7px;
+    text-align: left;
+}
+
+.noticia-publicidad{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    margin-top: 10px;
+    float: left;
+    margin-right: 2%;
+}
+
+.noticia h1{
+    font-size: medium;
+    margin-bottom: 0%;
+
+}
+
+.noticia p{
+    font-weight: bold;
+    font-size: small;
+    color: #255959;
+    text-align:left;
+}
+
+span{
+    font-size: xx-small;
+    color: gray;
+}
+
+h3{
+    font-size: medium;
+    background-color: #1ED9D9;
+    color: white;
+    margin: 8px;
+}
+
+h4{
+    color: #FBAB22;
+    padding-left: 6px;
+    margin-bottom: 0%;
+}
+
+.asidep{
+    margin: 9px;
+}
+
+.naranja{
+    color: #C4810E;
+
+}
+
+footer{
+    width: 100%;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    align-items: center;
+}
+
+.footerp{
+    font-size: medium;
+    width: 150%;
+    background-color: #D1D1D1;
+    margin: 1px;
+    margin-left: 25px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+
+.div4{
+    font-weight: bold;
+}
+
+
+.publicidad{
+    float: left;
+    padding: 1%;
+    margin-right: 7px;
+    border: 1px dashed #FBAB22;
+    background-color: #f8eaab;
+}
+
+.publicidad{
+    padding-left: 6px;
+    margin-top: 5px;
+}
+
+.azul{
+    background-color: white;
+    width: 14%;
+    float: right;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: 8px;
+    border: 3px solid #1ED9D9;
+}
+
+.noticia-publicidad{
+    display: flex;
+    flex-wrap: wrap;
+}

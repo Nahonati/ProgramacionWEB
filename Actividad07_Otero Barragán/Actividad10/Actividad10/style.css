@@ -1,0 +1,88 @@
+.house{
+    width: 650px;
+    height: 0;
+    border-radius: 0;
+    position: relative;
+    margin: 0 auto;
+} 
+.roof{
+    width: 0;
+    height: 0;
+    border-radius: 0;
+    border-right: 240px solid transparent;
+    border-left: 240px solid transparent;
+    border-bottom: 230px solid rgb(179, 58, 18); 
+    position: relative;
+    left: 86px;
+}
+
+.chimney{
+    background-color: rgb(52, 10, 3);
+    width: 75px;
+    height: 109px;
+    position: absolute;
+    left: 146px;
+    top: 100px;
+}
+
+.wall{
+    background-color: rgb(251, 237, 221);
+    width: 480px;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.window01{
+    background-color: rgb(178, 197, 248);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    position:relative;
+    left: 60px;
+    top: 60px;
+}
+
+.window02{
+    background-color: rgb(178, 197, 248);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    position:absolute;
+    left: 345px;
+    top:60px;
+}
+
+.door{
+    background-color: rgb(110, 66, 9);
+    width: 95px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: solid rgb(85, 28, 6); 
+    position:absolute;
+    left: 195px;
+    top: 61%;
+    z-index: 2;
+}
+
+.decor{
+    background-color: rgb(228, 202, 198);
+    width: 480px;
+    height: 80px;
+    position: absolute;
+    top: 80%;
+    z-index: 1;
+}
+
+.grass{
+    background-color: rgb(58, 117, 15);
+    width: 600px;
+    height: 12px;
+    border-radius: 10px;
+    position:absolute;
+    left: 27px;
+    top: 610px;
+    z-index: 3;
+}
+

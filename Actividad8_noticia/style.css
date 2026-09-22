@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: red;
+}
+
+.gris2{
+    color: grey;
+}
+
+.negro{
+    font-weight: bold;
+    color: black;
+}
+
+img{
+    width: 100%;
+    border-bottom: 5px solid red;
+}
+
+.subrayar{
+    text-decoration: underline red;
+    color: black;
+}
+
+.gris{
+    color: grey;
+    font-style: italic;
+}
+
+#resaltar{
+    text-decoration: underline red;
+    color: black;
+    font-weight: bold;
+}
+

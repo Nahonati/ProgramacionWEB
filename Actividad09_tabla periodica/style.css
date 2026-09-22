@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    color:grey;
+}
+
+td{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+div{
+    width: 45px;
+    height: 16px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.green{
+    background-color: #9EC87C;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.num{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+
+.abr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+
+.red{
+    background-color: #D92344;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.numb{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color:white; 
+}
+
+.abrb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+
+.nameb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color: white;
+}
+
+.orange{
+    background-color: #F5A61F;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.blue{
+    background-color: #9BBFE2;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.blue2{
+    background-color: #2696D2;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.aqua{
+    background-color: #73BF9C;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.purple{
+    background-color: #B895C5;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.yeloow{
+    background-color: #FDCE0B;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.pink{
+    background-color: #F5B2CA;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.grey{
+    background-color: #C3C3C3;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    background-color: deepskyblue;
+}
